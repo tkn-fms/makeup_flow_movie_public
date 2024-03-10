@@ -1,0 +1,154 @@
+aside{
+  height: 300px;
+  padding: 10px 10px;
+  color:#fff;
+  font-size: 12px;
+  font-weight: 700;
+  background: rgba(16,185,129,.75);
+  border-right: 1px solid #eee;
+}
+aside .nodes>*{
+  margin-bottom: 10px;
+  cursor: grab;
+  font-weight: 500;
+  -webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,.25);
+  box-shadow: 5px 5px 10px 2px #00000040
+}
+
+/* MakeNode */
+.makeup-node{
+  padding: 10px;
+  min-width: 150px;
+  max-width: 150px;
+  text-align: center;
+  font-size: 11px;
+  color: var(--vf-node-text);
+  background: var(--vf-node-bg);
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--vf-node-color);
+}
+#m-icon{
+  width: 25px;
+  height: 25px;
+  padding: 0px 0px 0px 0px; /* 上 | 右 | 下 | 左 */
+}
+#m-title{
+  padding-top: 3px;
+  margin: 0px 0px 0px 0px; /* 上 | 右 | 下 | 左 */
+  white-space: pre-wrap;
+}
+
+/* MotivationNode */
+.mvbranch-node{
+  width: 130px;
+  padding: 0px;
+  margin-right: 10px;
+  float: left;
+}
+.mv-diamond {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  transform: rotate(135deg) skew(20deg, 20deg);
+  margin: 0px;
+  padding: 0px;
+  left: 35px;
+  border-width: 1px;
+  border-radius: 3px;
+  border-style: solid;
+  background: var(--vf-node-bg);
+  border-color: var(--vf-node-color);
+}
+.mv-diamond-inner {
+  position: absolute;
+  width: 160%;
+  transform: skew(-20deg, -20deg) rotate(-135deg); /* 傾き・回転をリセット */
+  display: flex;
+  top: 23px;
+  right: -14px;
+}
+#mv-title{
+  float: left;
+  top: -10px;
+  margin: 0px 0px 0px 27px; /* 上 | 右 | 下 | 左 */
+  font-size: 14px;
+  color: var(--vf-node-text);
+  white-space: pre-wrap;
+}
+
+/* SeasonNode */
+.sbranch-node{
+  width: 130px;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+.s-diamond {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  transform: rotate(135deg) skew(20deg, 20deg);
+  margin: 0px;
+  padding: 0px;
+  left: 35px;
+  border-width: 1px;
+  border-radius: 3px;
+  border-style: solid;
+  background: var(--vf-node-bg);
+  border-color: var(--vf-node-color);
+}
+.s-diamond-inner {
+  position: absolute;
+  width: 160%;
+  transform: skew(-20deg, -20deg) rotate(-135deg); /* 傾き・回転をリセット */
+  display: flex;
+  top: 23px;
+  right: -14px;
+}
+#s-title{
+  top: -10px;
+  margin: 0px 0px 0px 33px; /* 上 | 右 | 下 | 左 */
+  font-size: 14px;
+  color: var(--vf-node-text);
+  white-space: pre-wrap;
+}
+
+/* TimeNode */
+.tbranch-node{
+  width: 130px;
+  height: 60px;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+.t-diamond {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  transform: rotate(135deg) skew(20deg, 20deg);
+  margin: 0px;
+  padding: 0px;
+  left: 35px;
+  border-width: 1px;
+  border-radius: 3px;
+  border-style: solid;
+  background: var(--vf-node-bg);
+  border-color: var(--vf-node-color);
+}
+.t-diamond-inner {
+  position: absolute;
+  width: 160%;
+  transform: skew(-20deg, -20deg) rotate(-135deg); /* 傾き・回転をリセット */
+  display: flex;
+  top: 23px;
+  right: -14px;
+}
+#t-title{
+  top: -10px;
+  margin: 0px 0px 0px 20px; /* 上 | 右 | 下 | 左 */
+  font-size: 14px;
+  color: var(--vf-node-text);
+  white-space: pre-wrap;
+}
