@@ -1,0 +1,2 @@
+# makeup_flow_movie_public
+Vue3（TypeScript）で作成した美容系YouTuberの動画書き出し専用のMake-up FLOW
